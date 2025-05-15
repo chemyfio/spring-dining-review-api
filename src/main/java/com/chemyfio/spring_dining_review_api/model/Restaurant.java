@@ -16,7 +16,7 @@ public class Restaurant {
   @GeneratedValue
   private Long id;
 
-  @Column(name="NAME")
+  @Column(name="NAME", unique=true, nullable=false)
   private String name;
 
   @Column(name="ZIPCODE")

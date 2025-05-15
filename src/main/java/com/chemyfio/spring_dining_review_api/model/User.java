@@ -16,7 +16,7 @@ public class User {
   @GeneratedValue
   private Long id;
 
-  @Column(name = "NAME")
+  @Column(name = "NAME", unique=true, nullable=false)
   private String name;
 
   @Column(name = "CITY")

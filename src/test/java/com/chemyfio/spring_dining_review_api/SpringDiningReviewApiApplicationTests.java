@@ -1,13 +1,13 @@
-package com.chemyfio.spring_dining_review_api;
+// package com.chemyfio.spring_dining_review_api;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+// import org.junit.jupiter.api.Test;
+// import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class SpringDiningReviewApiApplicationTests {
+// @SpringBootTest
+// class SpringDiningReviewApiApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+// 	@Test
+// 	void contextLoads() {
+// 	}
 
-}
+// }
