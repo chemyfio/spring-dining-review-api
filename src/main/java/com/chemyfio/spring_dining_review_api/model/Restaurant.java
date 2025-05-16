@@ -23,13 +23,13 @@ public class Restaurant {
   private String zipcode;
 
   @Column(name="PEANUT_AVG_SCORE")
-  private Float peanutAvgScore;
+  private Float peanutAvgScore = 0.0f;
 
   @Column(name="EGG_AVG_SCORE")
-  private Float eggAvgScore;
+  private Float eggAvgScore = 0.0f;
 
   @Column(name="DAIRY_AVG_SCORE")
-  private Float dairyAvgScore;
+  private Float dairyAvgScore = 0.0f;
 
   @Column(name="REVIEW_COUNT")
   private Integer reviewCount;
